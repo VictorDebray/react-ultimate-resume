@@ -17,7 +17,16 @@ jobs:
         with:
           node-version: 12
       - run: yarn install
+      - name: Commit files
+          run: |
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
       - run: npm version prepatch --preid=beta
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: test_ci
 
   build:
     needs: version
