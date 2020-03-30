@@ -1,139 +1,414 @@
 {
-    "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john.doe@mail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
-        "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
-        },
-        "profiles": [
-            {
-                "network": "Twitter",
-                "username": "john",
-                "url": "http://twitter.com/john"
-            }
-        ]
+  "basics": {
+    "name": "Victor Debray",
+    "label": "Software Engineer",
+    "picture": "https://media-exp1.licdn.com/dms/image/C5603AQGBb9tmEOQcuA/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=GStoTwQElhmQv9wmynQ88fEi-fnCk-zTKEtBQ4GOl3w",
+    "email": "victor@debray.dev",
+    "phone": "+33 6 71 48 49 61",
+    "website": "http://victor.debray.dev",
+    "summary": "Backend engineer available April 2020",
+    "location": {
+      "address": "",
+      "postalCode": "75013",
+      "city": "Paris, France",
+      "countryCode": "France",
+      "region": "",
+      "name": "Paris, France"
     },
-    "work": [
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "victor-derbay",
+        "url": "http://linkedin.com/in/victor-debray"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Microsoft",
+      "position": "Software & Security Engineer",
+      "website": "http://microsoft.com",
+      "startDate": "2019-09-17",
+      "endDate": "2020-03-20",
+      "summary": "Open Enclave SDK:\n• Use and identification of key features of library\n• Development of a TEE (Trusted Execution Environment) app deployed in the Azure Cloud on a Intel SGX enabled server.\n• Development of a TEE app for an ARM Secure World embedded system (Scalys Trustbox).\n• Connect the Intelligent Cloud to the Intelligent Edge using Azure IoT Hub and Edge.\n• Implementation of cryptographic Machine Learning multi-party scenario.\n• Redaction of a white paper to demonstrate the use of previous point with Confidential Computing.",
+      "location": "Paris, France",
+      "id": "fe2ce0d0-5c20-440e-a5ea-d8f863dd59cc",
+      "place": {
+        "name": "Paris, France"
+      },
+      "stillEmployed": false,
+      "index": 0
+    },
+    {
+      "name": "NGINX, Inc.",
+      "position": "Software Engineer",
+      "website": "http://nginx.com",
+      "startDate": "2019-06-03",
+      "endDate": "2019-09-01",
+      "summary": "Joined NGINX during the merge of their team and F5's Blue which is now called Indigo.\nApplication Delivery Controller - ADC (previously Load Balancer) :\n• Fix of sync between agent and backend server.\n• Design and implementation of new CI/CD of indigo project.\n• Development of golang new micro-services in already existing controller backend project.\n• Strong participation in DevOps guild to provide best dev experience for ADC squad.\n• Interest and follow-up in service-mesh project in alpha.",
+      "location": "San Francisco, CA, USA",
+      "id": "b2f06ec6-56f2-4fbb-b7e0-4266491f3aec",
+      "place": {
+        "name": "San Francisco, CA, USA"
+      },
+      "stillEmployed": false,
+      "index": 1
+    },
+    {
+      "name": "Flashbrand",
+      "position": "Software Engineer",
+      "website": "http://flashbrand.com",
+      "summary": "- Set up and implementation of SSO connection (SAML2).\n- Automation of entreprise account creation process.\n- Research and development of a chatbot for our Digital Coach.\n- Refactor and conversion towards Docker architecture.\n- Installation of continuous integration and deployment tools (AWS). ",
+      "location": "San Francisco, CA, USA",
+      "highlights": [
+        "Started the company"
+      ],
+      "id": "2efdea10-63f0-40ba-ad65-506508bc5081",
+      "startDate": "2017-08-30",
+      "endDate": "2018-09-01",
+      "place": {
+        "name": "San Francisco, CA, USA"
+      },
+      "stillEmployed": false,
+      "index": 2
+    }
+  ],
+  "education": [
+    {
+      "institution": "EPITECH",
+      "area": "Software Engineering",
+      "studyType": "Engineer Degree",
+      "startDate": "2018-06-01",
+      "endDate": "2020-10-01",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "Concordia University",
+      "area": "Computer Science",
+      "studyType": "Engineer Degree",
+      "startDate": "2018-09-01",
+      "endDate": "2019-05-01",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "EPITECH",
+      "area": "Software Engineering",
+      "studyType": "Engineer Degree",
+      "startDate": "2015-09-01",
+      "endDate": "2018-06-01",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "website": "http://publication.com",
+      "summary": "Description..."
+    }
+  ],
+  "skills": [
+    {
+      "name": "C++",
+      "index": 0,
+      "value": 90,
+      "id": "59cf63fb-09fb-4816-a449-eddd5f09a5f6"
+    },
+    {
+      "name": "Python",
+      "index": 1,
+      "value": 70,
+      "id": "265a35db-2027-4063-be80-0e5aba6acdd7"
+    },
+    {
+      "name": "Go",
+      "index": 2,
+      "value": 65,
+      "id": "d5ba8cad-aaa6-4ec6-b9c3-df7b0aa826a9"
+    },
+    {
+      "name": "Typescript",
+      "index": 3,
+      "value": 70,
+      "id": "2a08a390-17a6-4c88-9f8b-dcd4bbbc7739"
+    },
+    {
+      "name": "NodeJS",
+      "index": 4,
+      "value": 70,
+      "id": "b956f38e-15f2-459e-919a-c45b64760de7"
+    },
+    {
+      "name": "Git",
+      "index": 5,
+      "value": 100,
+      "id": "39e87f3e-2458-47c7-91b8-5360a1f2aac2"
+    },
+    {
+      "name": "Docker",
+      "index": 6,
+      "value": 100,
+      "id": "f90855c6-82f0-42b6-9b3b-02c3febb10a6"
+    },
+    {
+      "name": "Amazon Web Services",
+      "index": 7,
+      "value": 80,
+      "id": "a177ee05-5e83-4c43-ae2f-e8d58e3459a3"
+    },
+    {
+      "name": "Azure",
+      "index": 8,
+      "value": 80,
+      "id": "51111199-e182-418a-97dc-9c21e2924481"
+    },
+    {
+      "name": "Google Cloud",
+      "index": 9,
+      "value": 50,
+      "id": "dd95b004-87fa-4839-9590-1ec02b53bfcc"
+    }
+  ],
+  "languages": [
+    {
+      "index": 0,
+      "id": "d8dd7882-3773-44c7-a0e2-4f4b798a6642",
+      "language": "French",
+      "value": 100
+    },
+    {
+      "language": "English",
+      "value": 100,
+      "fluency": "Native speaker",
+      "id": "7be9000b-32d2-41ac-9365-911cd06b0468",
+      "index": 1
+    },
+    {
+      "index": 2,
+      "id": "8ac1bdf9-6ae1-482d-8fbc-d9c30cf2fd4b",
+      "language": "Spanish",
+      "value": 60
+    }
+  ],
+  "interests": [
+    {
+      "name": "Guitar",
+      "gifUrl": "https://thumbs.gfycat.com/BlankWarmheartedEarwig.webp"
+    },
+    {
+      "name": "Bike Riding",
+      "gifUrl": "https://media.giphy.com/media/48P651WInEOpMu7mAT/giphy.gif"
+    },
+    {
+      "name": "Rugby",
+      "gifUrl": "https://media.giphy.com/media/Mdd4k1cZmypHn5KEqP/giphy.gif"
+    },
+    {
+      "name": "Cooking",
+      "gifUrl": "https://media.giphy.com/media/12lL9jqB0Ogx2w/giphy.gif"
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference..."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Witchin' Kitchen - Ubisoft Game Lab Competition 2019",
+      "date": "2019-03-29T23:00:00.000Z",
+      "description": "Jury's Special Award.\n\nA magic-themed cooking show where 2-4 players battle for ingredients to brew potions in fast-paced chaos. Spectators vote on arena-wide events and cast spells to help or hinder individual players, contributing to the magical madness. It’s Witchin’ Kitchen!\n\nGame and mobile made built on Unity Game Engine. Main game and mobile communication is custom made and deployed on AWS with a DevOps CI/CD infrastructure.\n",
+      "link": "https://witch-network-tv.itch.io/witchin-kitchen",
+      "id": "a3f62310-1a26-4dae-8e06-32c3899b72ea",
+      "endDate": "2019-03-30",
+      "index": 1
+    },
+    {
+      "name": "RoadBuddy - Hackathon - Hackmobility Shell Grand Prize",
+      "description": "RoadBuddy solves the problem of drowsiness during driving by beating your routine.\nThis new best virtual co-pilot gets info from your Fitbit to detect pulse and fetches your car data with Smartcar. This allows our agent to get surrounding location info to propose quick facts, near stop or even #dadjokes. All that by simple voice commands !",
+      "date": "2019-06-30T14:05:16.754Z",
+      "link": " https://www.linkedin.com/feed/update/urn:li:activity:6558949299525419008/",
+      "id": "1a127465-7371-4812-a737-25f89fa4a8bd",
+      "endDate": "2019-06-30"
+    },
+    {
+      "name": "Angela - Hackathon - Winning project of Microsoft’s Track about AI and MLP",
+      "date": "2017-06-30T14:01:54.822Z",
+      "description": "Prize 10k€\n\nAngela is a personal assistant chatbot to help you with your workplace struggles. With the data collected from employees, Angela introduces you when you need help from a colleague on a specific project. Data collected include professional competences and external information as hobbies.\n\nOn use case is the following: whenever someone asks about a problem related to, let’s say excel spreadsheets, then Angela will propose people that could help. To make the experience nicer, it will also propose an ice breaker subject, for example if the asker has skating as a hobby, Angela will make sure to find someone with something similar as snowboarding (with a trained classification model we trained for the use cases).",
+      "link": "https://www.epitech.eu/fr/actualites-evenements/vivatechnology-2017-startup-connect-innovation-open-innovation-epitech-hackathon-microsoft-angela/",
+      "id": "f7d870b3-4253-4001-8eb0-47ba01d063e2",
+      "endDate": "2017-06-30"
+    },
+    {
+      "name": "Spider",
+      "date": "2017-09-30T14:04:30.318Z",
+      "description": "Keylogger software using a client/server architecture.\n\nClient runs on Windows and the server on Unix (Linux/macOs).\n• Data transmission are sent asynchronously and serialized.\n• Server receives the raw data sent by the client, and deserializes it to store it on a mongoDb for further exploitation.\n• Boost library for network, gTest for unit and integration testing.\n",
+      "link": "https://github.com/VictorDebray/Spider",
+      "id": "f04fafcc-e36a-4e8e-b42d-f3c4defa31a8",
+      "endDate": "2017-09-30"
+    }
+  ],
+  "specific": {
+    "basics": {
+      "visaSponsorship": false,
+      "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
+    },
+    "dreamJob": {
+      "locations": [
         {
-            "name": "Company 2 ",
-            "position": "Worker",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+          "name": "San Francisco, CA",
+          "id": "3933056d-0590-4277-8167-cb7791e4869f"
         },
         {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+          "name": "London, UK",
+          "id": "747ee9c1-4372-465f-9e90-e28095b98837"
         },
         {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+          "name": "Paris,France",
+          "id": "74253ee1-1677-477a-8ef5-ccaa38d3e872"
+        },
+        {
+          "name": "New York, NY",
+          "id": "c8545503-14a6-42b9-9eab-f2bb9812cd38"
         }
+      ],
+      "remoteFrequency": "regularly",
+      "perks": {
+        "mood": true,
+        "challenge": true,
+        "work_hours": true,
+        "responsabilities": true,
+        "training": true
+      }
+    },
+    "currentJob": {
+      "issues": {
+        "other": null,
+        "no_challenge": true,
+        "no_tech": true,
+        "no_responsabilities": true
+      }
+    },
+    "education": {
+      "studiesLevel": 5
+    },
+    "work": {
+      "contractTypes": [
+        "permanent"
+      ],
+      "codingYears": 8,
+      "codingReason": "As a guitarist for quite some time now, I know the struggles that an artist can encounter when he uses the different technologies that are mandatory to express his art.  It is by using those complex software and tools that I started coding.",
+      "searchState": "activelySearching",
+      "experienceYears": 3
+    },
+    "sound": {
+      "embedUrl": "https://open.spotify.com/embed/playlist/45zWHdk2MvFxehL5q4XrrL?si=IJABAaM6SaudYRzxJderQA"
+    },
+    "interestedBy": "Infrastructure tools, Systems and Networks."
+  },
+  "resumeCustomization": {
+    "imageHeader": {
+      "url": "https://media-exp1.licdn.com/dms/image/C5616AQHrVc_W30cjAw/profile-displaybackgroundimage-shrink_200_800/0?e=1591228800&v=beta&t=U9eeVlDZ4Q5ZuXUdcOetAf2BFAxfEWoa8Ol-LDNku3U",
+      "alt": "Default Banner"
+    },
+    "cardsOrder": [
+      {
+        "type": "basics",
+        "variant": 4
+      },
+      {
+        "type": "projects",
+        "variant": 4
+      },
+      {
+        "type": "skills",
+        "variant": 0
+      },
+      {
+        "type": "dreamjob",
+        "variant": 4
+      },
+      {
+        "type": "experiences",
+        "variant": 4
+      },
+      {
+        "type": "studies",
+        "variant": 4
+      },
+      {
+        "type": "gifs",
+        "variant": 0
+      },
+      {
+        "type": "interestedBy",
+        "variant": 3
+      },
+      {
+        "type": "language",
+        "variant": 4
+      },
+      {
+        "type": "soundtrack",
+        "variant": 4
+      }
     ],
-    "volunteer": [
-        {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
-        }
-    ],
-    "education": [
-        {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+    "theme": {
+      "palette": {
+        "primary": {
+          "50": "#eae6ed",
+          "100": "#d4cddb",
+          "200": "#aa9bb7",
+          "300": "#7f6892",
+          "400": "#55366e",
+          "500": "#2a044a",
+          "600": "#22033b",
+          "700": "#19022c",
+          "800": "#11021e",
+          "900": "#08010f",
+          "contrastDefaultColor": "light"
         },
-        {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        }
-    ],
-    "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
-        }
-    ],
-    "skills": [
-        {
-            "name": "Reactaaa",
-            "level": "Master",
-            "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
+        "secondary": {
+          "50": "#e7eaee",
+          "100": "#ced5de",
+          "200": "#9dabbd",
+          "300": "#6d829b",
+          "400": "#3c587a",
+          "500": "#0b2e59",
+          "600": "#092547",
+          "700": "#071c35",
+          "800": "#041224",
+          "900": "#020912",
+          "contrastDefaultColor": "light"
         },
-        {
-            "name": "Angular",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "NodeJS",
-            "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Firebase",
-            "level": "Master",
-            "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Gmail",
-            "level": "Master",
-            "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "K8S",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+        "tertiary": {
+          "50": "#e7f0ee",
+          "100": "#cfe1de",
+          "200": "#9ec2bd",
+          "300": "#6ea49b",
+          "400": "#3d857a",
+          "500": "#0d6759",
+          "600": "#0a5247",
+          "700": "#083e35",
+          "800": "#052924",
+          "900": "#031512",
+          "contrastDefaultColor": "light"
         }
     ],
     "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }],
@@ -221,4 +496,5 @@
             }
         }
     }
+  }
 }

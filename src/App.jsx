@@ -23,8 +23,7 @@ const mergeFunction = (objValue, srcValue, key) => {
     return undefined;
 };
 
-const mode = process.env.REACT_APP_MODE || 'edit';
-
+const mode = 'readOnly';
 function App() {
     const classes = useStyles();
     const [data, setData] = useState(omit(JsonStub, 'resumeCustomization'));
