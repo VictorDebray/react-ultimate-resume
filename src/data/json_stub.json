@@ -2,11 +2,11 @@
   "basics": {
     "name": "Victor Debray",
     "label": "Software Engineer",
-    "picture": "https://media-exp1.licdn.com/dms/image/C5603AQGBb9tmEOQcuA/profile-displayphoto-shrink_200_200/0?e=1591228800&v=beta&t=GStoTwQElhmQv9wmynQ88fEi-fnCk-zTKEtBQ4GOl3w",
+    "picture": "https://media-exp1.licdn.com/dms/image/C5603AQGBb9tmEOQcuA/profile-displayphoto-shrink_200_200/0/1517529321657?e=1616630400&v=beta&t=JJtkowxEaWRsrlpve_8bGW21ypPmaQWsB9_oku9hjBs",
     "email": "victor@debray.dev",
     "phone": "+33 6 71 48 49 61",
     "website": "http://victor.debray.dev",
-    "summary": "Backend engineer available April 2020",
+    "summary": "Software Engineer @ NGINX, Inc.",
     "location": {
       "address": "",
       "postalCode": "75013",
@@ -266,8 +266,8 @@
   ],
   "specific": {
     "basics": {
-      "visaSponsorship": false,
-      "personalDescription": "Software Engineer student looking for a full-time opportunity in backend."
+      "visaSponsorship": true,
+      "personalDescription": "Software Engineer enjoying working on backend stuff."
     },
     "dreamJob": {
       "locations": [
@@ -300,9 +300,9 @@
     "currentJob": {
       "issues": {
         "other": null,
-        "no_challenge": true,
-        "no_tech": true,
-        "no_responsabilities": true
+        "no_challenge": false,
+        "no_tech": false,
+        "no_responsabilities": false
       }
     },
     "education": {
@@ -324,7 +324,7 @@
   },
   "resumeCustomization": {
     "imageHeader": {
-      "url": "https://media-exp1.licdn.com/dms/image/C5616AQHrVc_W30cjAw/profile-displaybackgroundimage-shrink_200_800/0?e=1591228800&v=beta&t=U9eeVlDZ4Q5ZuXUdcOetAf2BFAxfEWoa8Ol-LDNku3U",
+      "url": "https://media-exp1.licdn.com/dms/image/C5616AQHrVc_W30cjAw/profile-displaybackgroundimage-shrink_200_800/0/1556313031269?e=1616630400&v=beta&t=Vz92MkFYVE58Xi2QhwKFp76IZLsQHpAA2vYY57Ch5tY",
       "alt": "Default Banner"
     },
     "cardsOrder": [
